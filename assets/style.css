@@ -281,7 +281,7 @@ footer {
     } 
 
 	.main-box {
-		width: 723px;
+		width: 680px;
 		display: block;
 		margin-bottom: 0;
 	}
@@ -292,7 +292,7 @@ footer {
 	}
 
 	.main-box#portfolio {
-		width: 723px;
+		width: 680px;
 		height: 820px;
 	}
 
@@ -308,16 +308,16 @@ footer {
 	}
 
 	input {
-		padding: 1% 480px 1% 2%;
+		padding: 1% 440px 1% 2%;
 	}
 
 	textarea {
-		width: 615px;
+		width: 580px;
 		height: 230px;
 	}
 
 	.side-box {
-		width: 723px;
+		width: 680px;
 		margin: 2.5% 0 2.5% 30px;
 	}
 
@@ -368,13 +368,13 @@ footer {
 
 
 	.main-box {
-		width: 600px;
-		margin: 20px;
+		width: 500px;
+		margin: 50px;
 	}
 
 	#myFace {
-		width: 540px;
-		margin: 0 31px;
+		width: 450px;
+		margin: 0 25px;
 		padding: 0 0 5% 0;
 	}
 
@@ -397,6 +397,7 @@ footer {
 	.portfolio img {
 		width: 430px;
 	}
+
 	.imgDesc {
 		width: 430px;
 		top: 270px;
@@ -404,32 +405,21 @@ footer {
 
 	}
 
-
-
-
-
-
-
 	input {
-		padding: 1% 380px 1% 2%;
+		padding: 1% 300px 1% 2%;
 	}
 
 	textarea {
-		width: 510px;
+		width: 430px;
 		height: 230px;
 	}
 
 	.side-box {
-		width: 600px;
-		margin: 0 0 2.5% 20px;
-
-	}
-
-	.side-box#portfolio {
 		width: 500px;
-		margin-left: 50px;
+		margin: 0 0 2.5% 50px;
+
 	}
-	
+
 	h3 {
 		text-align: left;
 		margin-left: 40px;
