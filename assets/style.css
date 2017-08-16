@@ -148,8 +148,6 @@ button {
 	padding: 10px 0;
 	font-size: 1.5rem;
 	color: #fff;
-
-
 }
 
 hr {
@@ -202,7 +200,7 @@ h3 {
 footer {
 	text-align: center;
 	background-color: #666666;
-	position: fixed;
+	position: relative;
     bottom: 0;
     height: 30px;
     padding: 30px 0 20px 0;
@@ -212,6 +210,258 @@ footer {
     z-index: 2;
 
 }
+
+
+/* Media Queries */
+
+
+/* Desktop */
+@media only screen and (max-width: 980px) {
+	body {
+		width: 980px;
+	}
+
+	.main-box {
+		width: 406px;
+		margin-right: 3%;
+
+	}
+
+	#myFace {
+		width: 351px;
+		margin: 0 31px;
+		padding: 0 0 5% 0;
+	}
+
+	#about {
+		line-height: 150%;
+		white-space: 2%;
+	}
+
+	.main-box#portfolio {
+		width: 300px;
+	}
+
+	.portfolio {
+	padding: 0 0 5% 7%;
+	float: left;
+	position: relative;
+	}
+
+	.imgDesc {
+		top: 145px;
+		left: 21px; 
+
+	}
+
+	input {
+		padding: 1% 200px 1% 2%;
+	}
+
+	textarea {
+		width: 330px;
+		height: 230px;
+	}
+
+	.side-box {
+		width: 260px;
+	}
+}
+
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 768px;
+	}
+
+	ul {
+    	padding: 40px 5% 40px 0;
+    } 
+
+	.main-box {
+		width: 723px;
+		display: block;
+		margin-bottom: 0;
+	}
+
+	#myFace {
+		width: 329px;
+		margin-left: 40px;
+	}
+
+	.main-box#portfolio {
+		width: 723px;
+		height: 820px;
+	}
+
+	.portfolio {
+		padding: 0 0 5% 7%;
+		float: left;
+
+	}
+
+	.imgDesc {
+		top: 125px;
+		left: 48.5px; 
+	}
+
+	input {
+		padding: 1% 480px 1% 2%;
+	}
+
+	textarea {
+		width: 615px;
+		height: 230px;
+	}
+
+	.side-box {
+		width: 723px;
+		margin: 2.5% 0 2.5% 30px;
+	}
+
+	h3 {
+		text-align: left;
+		margin-left: 40px;
+	}
+
+	hr {
+		width: 89%;
+		margin-bottom: 2%;
+	}
+
+	.connect {
+		height: 52px;
+		width: 52px;
+		padding: 0 0 2.5% 2%;
+	}
+
+	#gitHub {
+		padding-left: 40px;
+	}
+}
+
+/* Phone on Landscape */
+@media screen and (max-width: 640px) {
+	body {
+		max-width: 640px;
+	}
+
+	#logo {
+		height: 30px;
+		width: 640px;
+		padding: 31.5px 0;
+		margin: 0 auto;
+		position: flex;
+	}
+
+	ul {
+	    padding: 120px 0 20px 0; 
+	    bottom: 30px;
+	}
+
+	li {
+	    border-right: 1px solid #bbb;
+	    padding: 0 55px 0 55px;
+	}
+
+
+	.main-box {
+		width: 600px;
+		margin: 20px;
+	}
+
+	#myFace {
+		width: 540px;
+		margin: 0 31px;
+		padding: 0 0 5% 0;
+	}
+
+	#about {
+		line-height: 150%;
+	}
+
+	.main-box#portfolio {
+		width: 500px;
+		height: 1900px;
+		margin-left: 50px;
+	}
+	
+	.portfolio {
+	padding: 0 0 5% 7%;
+	float: left;
+	position: relative;
+	}
+
+	.portfolio img {
+		width: 430px;
+	}
+	.imgDesc {
+		width: 430px;
+		top: 270px;
+		left: 35px; 
+
+	}
+
+
+
+
+
+
+
+	input {
+		padding: 1% 380px 1% 2%;
+	}
+
+	textarea {
+		width: 510px;
+		height: 230px;
+	}
+
+	.side-box {
+		width: 600px;
+		margin: 0 0 2.5% 20px;
+
+	}
+
+	.side-box#portfolio {
+		width: 500px;
+		margin-left: 50px;
+	}
+	
+	h3 {
+		text-align: left;
+		margin-left: 40px;
+
+	}
+
+	hr {
+		width: 89%;
+		margin-bottom: 2%;
+	}
+
+	.connect {
+		height: 52px;
+		width: 52px;
+		padding: 0 0 2.5% 2%;
+	}
+
+	#gitHub {
+		padding-left: 40px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
